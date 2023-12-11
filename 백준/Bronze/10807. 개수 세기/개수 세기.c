@@ -2,7 +2,7 @@
 main(){
     int N;
     scanf("%d", &N);
-    int arr[100];
+    int arr[N];
     int count = 0;
     
     for(int i=0; i<N; i++){
