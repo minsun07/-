@@ -14,7 +14,6 @@ main(){
         else if(max<arr[j])
             max = arr[j];
     }
-    printf("%d", min);
-    printf(" ");
-    printf("%d", max);
+    printf("%d %d", min, max);
+  
 }
