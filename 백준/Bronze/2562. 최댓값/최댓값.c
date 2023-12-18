@@ -1,21 +1,17 @@
 #include <stdio.h>
- 
-int main(void){
-    int arr[9];
-    
+main(){
+    int arr[9]; 
     for(int i=0; i<9; i++){
-        scanf("%d", &arr[i]);
+         scanf("%d", &arr[i]);      
     }
- 
     int max = arr[0];
-    int position = 1;
+    int indext=1;
     for(int j=0; j<9; j++){
-        if(arr[j] > max){
+        if(max<arr[j]){
             max = arr[j];
-            position = j+1;
-        }
+            indext = j+1;
+        }      
     }
- 
-    printf("%d\n", max);
-    printf("%d\n", position);
+     printf("%d\n", max);
+     printf("%d", indext);
 }
