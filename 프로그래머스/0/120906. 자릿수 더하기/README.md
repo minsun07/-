@@ -1,10 +1,10 @@
 # [level 0] 자릿수 더하기 - 120906 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120906) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120906?language=c) 
 
 ### 성능 요약
 
-메모리: 73.8 MB, 시간: 0.04 ms
+메모리: 4.4 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 04일 18:45:36
+2024년 03월 04일 19:05:46
 
 ### 문제 설명
 
