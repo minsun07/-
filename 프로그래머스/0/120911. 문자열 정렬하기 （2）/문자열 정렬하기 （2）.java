@@ -7,5 +7,12 @@ class Solution {
         Arrays.sort(arr);                      //오름차순으로 정렬하기
         String answer = new String(arr);       //문자열로 만들기
         return answer;
+        
+        //위 코드를 줄인 코드
+        // char[] arr = my_string.toLowerCase().toCharArray();
+        // Arrays.sort(arr);
+        // String answer = new String(arr);
+        //return answer;
+        
     }
 }
