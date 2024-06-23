@@ -1,7 +1,7 @@
 def solution(n, control):
     
     #for문 사용
-    #answer = 0
+    # answer = n
     # for i in control:
     #     if i=='w':
     #         answer += 1;
@@ -13,9 +13,9 @@ def solution(n, control):
     #         answer -= 10;
     
     #딕셔너리 사용
-    answer = n
+    answer = n    #n부터 시작한다!
     a = {'w':1, 's':-1, 'd':10, 'a':-10}
-    for i in control:
+    for i in control: 
         answer += a[i]
         
     return answer
