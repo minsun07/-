@@ -10,3 +10,5 @@ def solution(x, n):
         answer = [0]*n
   
     return answer
+    #다른 사람 풀이
+    #return [i * x + x for i in range(n)]
